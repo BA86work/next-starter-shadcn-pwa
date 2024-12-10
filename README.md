@@ -4,9 +4,9 @@
 
 ## 🚀 ติดตั้ง
 
-``` bun create next-app <ตั้งชื่อโปรเจค> --template https://github.com/your-username/your-template-repo ```
+``` bun create BA86work/next-starter-shadcn-pwa <ตั้งชื่อโฟลเดอร์> ```
 > อธิบายโครงสร้างคำสั่ง (bun ใช้ --template แทน -e)
-```bun create next-app [ชื่อโปรเจคที่ต้องการ] --template [URL ของ template]```
+```bun create <user>/<repo> <ชื่อโฟลเดอร์>```
 
 ## 🎁 Dependencies ที่เพิ่มเข้ามา
 
@@ -77,7 +77,7 @@
 
 ```bash
 # ใช้ bun
-bun create next-app --template https://github.com/your-username/your-template-repo
+bun create <user>/<repo> <ชื่อโฟลเดอร์>
 
 # ใช้ npm
 npx create-next-app -e https://github.com/your-username/your-template-repo
