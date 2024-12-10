@@ -1,0 +1,35 @@
+{
+    "id": "1",
+    "name": "Sample Next.js App",
+    "short_name": "Sample App",
+    "description": "A sample Next.js application template with PWA support",
+    "statusBarStyle": "black-translucent",
+    "icons": [
+      {
+        "src": "/sample-icon.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "/sample-wide-screenshots.png",
+        "sizes": "1000x750",
+        "type": "image/png",
+        "form_factor": "wide"
+      },
+      {
+        "src": "/sample-narrow-screenshots.png",
+        "sizes": "1200x2160",
+        "type": "image/png",
+        "form_factor": "narrow"
+      }
+    ],
+    "scope": "/",
+    "background_color": "#4A6741",
+    "theme_color": "#4A6741",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+  }
