@@ -1,0 +1,19 @@
+{
+    "name": "next-starter-shadcn-pwa",
+    "description": "Next.js starter template with Shadcn UI and PWA support",
+    "files": [
+      ".eslintrc.json",
+      "README.md",
+      "app/**/*",
+      "components/**/*",
+      "lib/**/*",
+      "public/**/*",
+      "styles/**/*",
+      "next.config.js",
+      "package.json",
+      "postcss.config.js",
+      "tailwind.config.ts",
+      "tsconfig.json",
+      "components.json"
+    ]
+  }
