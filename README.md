@@ -4,9 +4,9 @@
 
 ## 🚀 ติดตั้ง
 
-``` bun create next-app <ตั้งชื่อโปรเจค> -e https://github.com/your-username/your-template-repo ```
-> อธิบายโครงสร้างคำสั่ง
-```bun create next-app [ชื่อโปรเจคที่ต้องการ] -e [URL ของ template]```
+``` bun create next-app <ตั้งชื่อโปรเจค> --template https://github.com/your-username/your-template-repo ```
+> อธิบายโครงสร้างคำสั่ง (bun ใช้ --template แทน -e)
+```bun create next-app [ชื่อโปรเจคที่ต้องการ] --template [URL ของ template]```
 
 ## 🎁 Dependencies ที่เพิ่มเข้ามา
 
@@ -77,7 +77,7 @@
 
 ```bash
 # ใช้ bun
-bun create next-app -e https://github.com/your-username/your-template-repo
+bun create next-app --template https://github.com/your-username/your-template-repo
 
 # ใช้ npm
 npx create-next-app -e https://github.com/your-username/your-template-repo
